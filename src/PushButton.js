@@ -11,7 +11,7 @@ class PushButton extends Component {
               <AwesomeButton
                 cssModule={AwesomeButtonStyles}
                 type="primary"
-                href="https://5ea2212cbd4153a50b9bf8f9--heuristic-northcutt-1fcef8.netlify.app"
+                href="https://001crypto100.netlify.app/"
                 target="_blank"
                 >
                 Buy
