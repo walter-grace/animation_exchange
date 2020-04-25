@@ -1,3 +1,6 @@
+### Web 3.0 Browser 
+Use a Web 3.0 Browser to connect to a wallet or enable MetaMask
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
