@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { useTransition, animated } from 'react-spring'
 import PushButton from './PushButton'
 import './styles.css'
+import Floating from './Floating'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
   return (   
     <div>
       <header>
+      <Floating />
         <PushButton />
       </header>
       {transitions.map(({ item, props: { innerHeight, ...rest }, key }) => (
@@ -40,6 +42,8 @@ function App() {
           <animated.div style={{ overflow: 'hidden', height: innerHeight }}>{item}</animated.div>
         </animated.div>
       ))}
+    <br/>
+    <br/>
     </div>
   )
 }
